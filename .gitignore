@@ -1,0 +1,63 @@
+# IntelliJ IDEA 관련
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# Mac OS 관련
+.DS_Store
+
+# Scala 관련
+*.class
+*.log
+*.cache
+*.project
+*.classpath
+target/
+lib_managed/
+src_managed/
+project/target/
+project/project/
+.metals/
+
+# sbt 관련
+dist/
+target/
+lib_managed/
+src_managed/
+.cache/
+.history/
+lib/
+
+# Python 관련
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+*.egg-info/
+.eggs/
+*.swp
+.mypy_cache/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Spark 관련
+derby.log
+.metastore_db/
+spark-warehouse/
+
+# Logs
+*.log
+*.out
+*.log.*
+*.out.*
+
+# 환경 변수 및 시스템 파일
+.env
+.env.local
+.env.*.local
+.envrc
+.vscode/
